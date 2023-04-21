@@ -1,0 +1,40 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  height: 300px;
+  box-shadow: 2px 2px 5px #d3d3d3;
+  background: linear-gradient(305deg, #dbfff3, transparent);
+}
+
+header > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+}
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav a {
+  margin-inline: 10px;
+}
+.email_registration label {
+  margin-right: 20px;
+  font-weight: 600;
+}
+.email_registration input {
+  min-width: 300px;
+}
+.email_registration button {
+  background: magenta;
+  color: white;
+}
+.email_registration button:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
